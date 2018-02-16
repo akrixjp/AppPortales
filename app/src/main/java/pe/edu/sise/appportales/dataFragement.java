@@ -44,7 +44,7 @@ public class dataFragement extends Fragment {
 
     private class sliderAdapter extends FragmentPagerAdapter{
 
-        String tabs[]={"Categorias"};
+        String tabs[]={"Servicios"};
 
         public sliderAdapter(FragmentManager fm) {
             super(fm);

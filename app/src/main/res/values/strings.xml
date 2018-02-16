@@ -14,8 +14,14 @@
     <string name="lblbutton11">Mis Autos</string>
     <string name="lblbutton12">Promociones</string>
     <string name="lblbutton13">Mis Autos</string>
-    <string name="lblbutton14">Mis Autos</string>
-    <string name="lblbutton15">Mis Autos</string>
+    <string name="lblbutton14">Tiempo Transcurrido</string>
+    <string name="lblbutton15">Historico de Tickets</string>
+    <string name="lblbutton16">Ubicar mi Auto</string>
+    <string name="lblbutton17">Mis Autos</string>
+    <string name="lblbutton18">Mis Autos</string>
+    <string name="lblbutton19">Mis Autos</string>
+    <string name="lblbutton20">Mis Autos</string>
+    <string name="lblbutton21">Mis Autos</string>
 
 
     <string name="lblEditText1">Usuario</string>

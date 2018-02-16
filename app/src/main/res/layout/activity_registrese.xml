@@ -22,24 +22,43 @@
             android:fontFamily="serif"/>
 
         <EditText
+            android:id="@+id/etNombres"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/lblEditText3"/>
+            android:hint="@string/lblEditText3"
+            android:maxLines="1"
+            android:inputType="textPersonName"
+            android:maxLength="35"/>
 
         <EditText
+            android:id="@+id/etApellidos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/lblEditText4"/>
+            android:inputType="textPersonName"
+            android:hint="@string/lblEditText4"
+            android:maxLines="1"
+            android:maxLength="35"/>
 
         <EditText
+            android:id="@+id/etDni"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="@string/lblEditText5"/>
+            android:hint="@string/lblEditText5"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:maxLines="1"
+            android:maxLength="8"
+            />
 
         <EditText
+            android:id="@+id/etTelefono"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/lblEditText6"/>
+            android:hint="@string/lblEditText6"
+            android:inputType="phone"
+            android:digits="0123456789"
+            android:maxLines="1"
+            android:maxLength="9"/>
 
 
         <LinearLayout
@@ -60,11 +79,12 @@
                 android:orientation="horizontal">
 
                 <RadioButton
+                    android:id="@+id/rbthombre"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-
                     android:text="@string/lblradiobutton1"/>
                 <RadioButton
+                    android:id="@+id/rbtmujer"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/lblradiobutton2"/>
@@ -73,17 +93,42 @@
 
 
         <EditText
+            android:id="@+id/etCorreo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/lblEditText11"/>
+            android:hint="@string/lblEditText11"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:maxLength="35"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Distrito"
+                android:layout_margin="3dp"
+                android:textSize="20sp"/>
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_margin="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/lblbutton4">
+            </Spinner>
+        </LinearLayout>
+
+
         <EditText
+            android:id="@+id/etUsuarioNuevo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/lblEditText8"/>
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/lblEditText9"/>
+            android:hint="@string/lblEditText9"
+            android:inputType="text"
+            android:maxLength="20"/>
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -93,13 +138,21 @@
             android:orientation="horizontal">
 
             <EditText
+                android:id="@+id/etContrasenaNueva"
                 android:layout_width="190dp"
                 android:layout_height="wrap_content"
-                android:hint="@string/lblEditText10"/>
+                android:hint="@string/lblEditText10"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:maxLength="20"/>
             <EditText
+                android:id="@+id/etConfirmarContra"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/lblEditText12"/>
+                android:hint="@string/lblEditText12"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:maxLength="20"/>
 
         </LinearLayout>
 
@@ -109,11 +162,13 @@
             android:layout_height="wrap_content">
 
             <Button
+                android:id="@+id/btnregistrar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/lblbutton6"
                 android:textColor="@color/write"
                 android:background="@drawable/redondeo"
+                android:onClick="irlogin"
                 android:fontFamily="serif"/>
         </LinearLayout>
 

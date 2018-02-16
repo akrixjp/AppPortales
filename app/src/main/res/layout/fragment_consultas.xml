@@ -2,14 +2,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="pe.edu.sise.appportales.ConsultasFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/lblTextView7"
-        android:gravity="center"
-        android:textSize="40dp"/>
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lblbutton14"
+            android:drawableTop="@drawable/ic_reloj2_64c64"
+            android:background="@drawable/redondeo_azul"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lblbutton15"
+            android:drawableTop="@drawable/ic_check_64x64"
+            android:background="@drawable/redondeo"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lblbutton16"
+            android:drawableTop="@drawable/ic_ubicanos"
+            android:background="@drawable/redondeo_rojo"/>
+
+    </LinearLayout>
 
 </FrameLayout>

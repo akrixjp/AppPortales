@@ -1,5 +1,6 @@
 package pe.edu.sise.appportales;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -132,5 +133,32 @@ public class PrincipalActivity extends AppCompatActivity
             ft.replace(R.id.content_main,fragment);
             ft.commit();
         }
+    }
+
+    public void irConsultasFragment(View view){
+
+        FragmentManager fragmentManager=getSupportFragmentManager();
+        fragmentManager.beginTransaction().replace(R.id.content_main,new ConsultasFragment()).commit();
+    }
+
+    public void irProductosFragment(View view){
+        FragmentManager fragmentManager=getSupportFragmentManager();
+        fragmentManager.beginTransaction().replace(R.id.content_main,new ProductosFragment()).commit();
+    }
+    public void irUbicarnosFragment(View view){
+        FragmentManager fragmentManager=getSupportFragmentManager();
+        fragmentManager.beginTransaction().replace(R.id.content_main,new UbicanosFragment()).commit();
+    }
+    public void irReservasFragment(View view){
+        FragmentManager fragmentManager=getSupportFragmentManager();
+        fragmentManager.beginTransaction().replace(R.id.content_main,new ReservasFragment()).commit();
+    }
+    public void irMisAutosFragment(View view){
+        FragmentManager fragmentManager=getSupportFragmentManager();
+        fragmentManager.beginTransaction().replace(R.id.content_main,new MisAutosFragment()).commit();
+    }
+    public void irPromocionesFragment(View view){
+        FragmentManager fragmentManager=getSupportFragmentManager();
+        fragmentManager.beginTransaction().replace(R.id.content_main,new PromocionesFragment()).commit();
     }
 }
