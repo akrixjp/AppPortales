@@ -7,13 +7,15 @@
     <string name="lblbutton4">Iniciar con Facebook</string>
     <string name="lblbutton5">Iniciar con Google+</string>
     <string name="lblbutton6">Registrar</string>
-    <string name="lblbutton7">App_05_02</string>
-    <string name="lblbutton8">App_05_02</string>
-    <string name="lblbutton9">App_05_02</string>
-    <string name="lblbutton10">App_05_02</string>
-    <string name="lblbutton11">App_05_02</string>
-
-
+    <string name="lblbutton7">Consultas</string>
+    <string name="lblbutton8">Productos</string>
+    <string name="lblbutton9">Ubicanos</string>
+    <string name="lblbutton10">Reservas</string>
+    <string name="lblbutton11">Mis Autos</string>
+    <string name="lblbutton12">Promociones</string>
+    <string name="lblbutton13">Mis Autos</string>
+    <string name="lblbutton14">Mis Autos</string>
+    <string name="lblbutton15">Mis Autos</string>
 
 
     <string name="lblEditText1">Usuario</string>
@@ -30,7 +32,6 @@
     <string name="lblEditText12">Confirmar Contraseña</string>
 
 
-
     <string name="lblradiobutton1">Hombre</string>
     <string name="lblradiobutton2">Mujer</string>
 
@@ -38,6 +39,23 @@
     <string name="lblTextView2">Password</string>
     <string name="lblTextView3">¿Olvidaste tu contraseña?</string>
     <string name="lblTextView4">Registro de Usuario</string>
-    <string name="lblTextView5">App_05_02</string>
+    <string name="lblTextView5">Jeffry Gutierrez</string>
+    <string name="lblTextView6">jguttierrz321@gmail.com</string>
+    <string name="lblTextView7">Consultas</string>
+    <string name="lblTextView8">Productos</string>
+    <string name="lblTextView9">Ubicanos</string>
+    <string name="lblTextView10">Reservas</string>
+    <string name="lblTextView11">Mis Autos</string>
+    <string name="lblTextView12">promo</string>
+
+    <string name="title_activity_principal">Menu Principal</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Ajustes</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
