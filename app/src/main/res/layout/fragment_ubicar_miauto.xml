@@ -17,13 +17,8 @@
             android:id="@+id/tvVehiculos"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Vehiculo Estacionado"
+            android:text="Ubicar mi auto"
             android:textSize="20dp" />
-
-        <com.google.android.gms.maps.MapView
-            android:id="@+id/mapView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
 
 
     </LinearLayout>

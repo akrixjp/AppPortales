@@ -56,7 +56,7 @@ public class UbicarmiautoActivity extends FragmentActivity implements OnMapReady
         marcador = mMap.addMarker(new MarkerOptions()
                 .position(coordenadas)
                 .title("Mi Posicion Actual")
-                .icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_launcher)));
+                .icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_logo2)));
         mMap.animateCamera(miUbicacion);
     }
 
