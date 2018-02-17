@@ -4,12 +4,156 @@
     android:layout_height="match_parent"
     tools:context="pe.edu.sise.appportales.ConsultasFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/lblTextView11"
-        android:gravity="center"
-        android:textSize="40dp"/>
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/lblTextView13"
+            android:textSize="20sp"
+            android:fontFamily="serif"/>
+
+        <EditText
+            android:id="@+id/etNroPlaca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/lblEditText13"
+            android:maxLines="1"
+            android:inputType="text"
+            android:maxLength="7"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/lblEditText14"
+            android:textSize="19dp"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spmarca">
+
+        </Spinner>
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/lblEditText15"
+                android:textSize="19dp"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spmodelo">
+
+            </Spinner>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/lblEditText16"
+                android:textSize="19dp"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spcolor">
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/lblEditText17"
+                android:textSize="19dp"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sptipovehiculo">
+
+            </Spinner>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="bottom|center"
+            android:layout_margin="15dp"
+            >
+
+            <Button
+                android:id="@+id/btnregistrarauto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblbutton6"
+                android:textColor="@color/write"
+                android:background="@drawable/redondeo"
+                android:fontFamily="serif"/>
+            <Button
+                android:id="@+id/btneditarauto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblbutton18"
+                android:textColor="@color/write"
+                android:background="@drawable/redondeo_rojo"
+                android:fontFamily="serif"/>
+            <Button
+                android:id="@+id/btneliminarauto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblbutton19"
+                android:textColor="@color/write"
+                android:background="@drawable/redondeo_azul"
+                android:fontFamily="serif"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
 
 </FrameLayout>

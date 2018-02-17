@@ -19,19 +19,24 @@
             android:text="@string/lblbutton14"
             android:drawableTop="@drawable/ic_reloj2_64c64"
             android:background="@drawable/redondeo_azul"
-            />
+            android:onClick="irTiempoTranscurridoFragment"
+            tools:ignore="OnClick" />
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/lblbutton15"
             android:drawableTop="@drawable/ic_check_64x64"
-            android:background="@drawable/redondeo"/>
+            android:onClick="irHistoricodeTicket"
+            android:background="@drawable/redondeo"
+            tools:ignore="OnClick" />
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/lblbutton16"
             android:drawableTop="@drawable/ic_ubicanos"
-            android:background="@drawable/redondeo_rojo"/>
+            android:background="@drawable/redondeo_rojo"
+            android:onClick="irUbicarmiauto"
+            tools:ignore="OnClick" />
 
     </LinearLayout>
 

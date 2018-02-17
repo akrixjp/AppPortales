@@ -31,4 +31,5 @@ public class MainActivity extends AppCompatActivity {
                 RegistreseActivity.class);
         startActivity(intent);
     }
+
 }

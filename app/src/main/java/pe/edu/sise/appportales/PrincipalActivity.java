@@ -135,8 +135,10 @@ public class PrincipalActivity extends AppCompatActivity
         }
     }
 
-    public void irConsultasFragment(View view){
 
+
+
+    public void irConsultasFragment(View view){
         FragmentManager fragmentManager=getSupportFragmentManager();
         fragmentManager.beginTransaction().replace(R.id.content_main,new ConsultasFragment()).commit();
     }
@@ -161,4 +163,18 @@ public class PrincipalActivity extends AppCompatActivity
         FragmentManager fragmentManager=getSupportFragmentManager();
         fragmentManager.beginTransaction().replace(R.id.content_main,new PromocionesFragment()).commit();
     }
+    //Metodos para Menu de Consultas
+    public void irTiempoTranscurridoFragment(View view){
+        FragmentManager fragmentManager=getSupportFragmentManager();
+        fragmentManager.beginTransaction().replace(R.id.content_main,new TiempoTranscurridoFragment()).commit();
+    }
+    public void irHistoricodeTicket(View view){
+        FragmentManager fragmentManager=getSupportFragmentManager();
+        fragmentManager.beginTransaction().replace(R.id.content_main,new HistoricoTicketFragment()).commit();
+    }
+    public void irUbicarmiauto(View view){
+        Intent intent=new Intent(getApplicationContext(),UbicarmiautoActivity.class);
+        startActivity(intent);
+    }
+
 }

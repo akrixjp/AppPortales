@@ -18,8 +18,8 @@
     <string name="lblbutton15">Historico de Tickets</string>
     <string name="lblbutton16">Ubicar mi Auto</string>
     <string name="lblbutton17">Mis Autos</string>
-    <string name="lblbutton18">Mis Autos</string>
-    <string name="lblbutton19">Mis Autos</string>
+    <string name="lblbutton18">Editar</string>
+    <string name="lblbutton19">Eliminar</string>
     <string name="lblbutton20">Mis Autos</string>
     <string name="lblbutton21">Mis Autos</string>
 
@@ -36,6 +36,12 @@
     <string name="lblEditText10">Contraseña</string>
     <string name="lblEditText11">Correo</string>
     <string name="lblEditText12">Confirmar Contraseña</string>
+    <string name="lblEditText13">Nro de Placa</string>
+    <string name="lblEditText14">Marca</string>
+    <string name="lblEditText15">Modelo</string>
+    <string name="lblEditText16">Color</string>
+    <string name="lblEditText17">Tipo de Vehiculo</string>
+    <string name="lblEditText18">Confirmar Contraseña</string>
 
 
     <string name="lblradiobutton1">Hombre</string>
@@ -53,6 +59,9 @@
     <string name="lblTextView10">Reservas</string>
     <string name="lblTextView11">Mis Autos</string>
     <string name="lblTextView12">promo</string>
+    <string name="lblTextView13">Registro Auto</string>
+    <string name="lblTextView14">Marca</string>
+
 
     <string name="title_activity_principal">Menu Principal</string>
 
@@ -63,5 +72,6 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_ubicarmiauto">Map</string>
 
 </resources>
