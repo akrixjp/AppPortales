@@ -121,6 +121,10 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         getLocationPermission();
 
     }
+    public void irDetalleReservaAvioncitoActivity(View view){
+        Intent intent=new Intent(getApplicationContext(),DetalleReservaAvioncitoActivity.class);
+        startActivity(intent);
+    }
 
     private void init(){
         Log.d(TAG, "init: initializing");
