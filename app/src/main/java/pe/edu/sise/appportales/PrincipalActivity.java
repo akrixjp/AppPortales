@@ -17,6 +17,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.AutoCompleteTextView;
+import android.widget.ImageView;
 
 public class PrincipalActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -92,32 +94,19 @@ public class PrincipalActivity extends AppCompatActivity
 
         FragmentManager fragmentManager=getSupportFragmentManager();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-            fragmentManager.beginTransaction().replace(R.id.content_main,new dataFragement()).commit();
-            //setFragment(new dataFragement());
+        if (id == R.id.nav_Consultas) {
+
+            Intent intent=new Intent(getApplicationContext(),MenuConsultarActivity.class);
+            startActivity(intent);
 
         }
-        else if (id == R.id.nav_Consultas) {
-            // Handle the camera action
-            fragmentManager.beginTransaction().replace(R.id.content_main,new ConsultasFragment()).commit();
-            //setFragment(new dataFragement());
-
-        }
-        else if (id == R.id.nav_gallery) {
-            fragmentManager.beginTransaction().replace(R.id.content_main,new ProductosFragment()).commit();
-
-        } else if (id == R.id.nav_slideshow) {
-            fragmentManager.beginTransaction().replace(R.id.content_main,new UbicanosFragment()).commit();
-
-        } else if (id == R.id.nav_manage) {
-            fragmentManager.beginTransaction().replace(R.id.content_main,new ReservasFragment()).commit();
+         else if (id == R.id.nav_manage) {
+            Intent intent=new Intent(getApplicationContext(),MenuReservaActivity.class);
+            startActivity(intent);
 
         } else if (id == R.id.nav_share) {
-            fragmentManager.beginTransaction().replace(R.id.content_main,new MisAutosFragment()).commit();
-
-        } else if (id == R.id.nav_send) {
-            fragmentManager.beginTransaction().replace(R.id.content_main,new PromocionesFragment()).commit();
+            Intent intent=new Intent(getApplicationContext(),MenuMisAutosActivity.class);
+            startActivity(intent);
 
         }
 
@@ -135,49 +124,19 @@ public class PrincipalActivity extends AppCompatActivity
         }
     }
 
-
-
-
-    public void irConsultasFragment(View view){
-        FragmentManager fragmentManager=getSupportFragmentManager();
-        fragmentManager.beginTransaction().replace(R.id.content_main,new ConsultasFragment()).commit();
-    }
-
-    public void irProductosFragment(View view){
-        FragmentManager fragmentManager=getSupportFragmentManager();
-        fragmentManager.beginTransaction().replace(R.id.content_main,new ProductosFragment()).commit();
-    }
-    public void irUbicarnosFragment(View view){
-        FragmentManager fragmentManager=getSupportFragmentManager();
-        fragmentManager.beginTransaction().replace(R.id.content_main,new UbicanosFragment()).commit();
-    }
-    public void irReservasFragment(View view){
-        FragmentManager fragmentManager=getSupportFragmentManager();
-        fragmentManager.beginTransaction().replace(R.id.content_main,new ReservasFragment()).commit();
-    }
-    public void irMisAutosFragment(View view){
-        FragmentManager fragmentManager=getSupportFragmentManager();
-        fragmentManager.beginTransaction().replace(R.id.content_main,new MisAutosFragment()).commit();
-    }
-    public void irPromocionesFragment(View view){
-        FragmentManager fragmentManager=getSupportFragmentManager();
-        fragmentManager.beginTransaction().replace(R.id.content_main,new PromocionesFragment()).commit();
-    }
-    //Metodos para Menu de Consultas
-    public void irTiempoTranscurridoFragment(View view){
-        FragmentManager fragmentManager=getSupportFragmentManager();
-        fragmentManager.beginTransaction().replace(R.id.content_main,new TiempoTranscurridoFragment()).commit();
-    }
-    public void irHistoricodeTicket(View view){
-        FragmentManager fragmentManager=getSupportFragmentManager();
-        fragmentManager.beginTransaction().replace(R.id.content_main,new HistoricoTicketFragment()).commit();
-    }
-    public void irUbicarmiauto(View view){
-        Intent intent=new Intent(getApplicationContext(),UbicarmiautoActivity.class);
+    public void irMenuConsultarActivity(View view){
+        Intent intent=new Intent(getApplicationContext(),MenuConsultarActivity.class);
         startActivity(intent);
     }
 
-    //Metodos para Menu
+    public void irMenuReservaActivity(View view){
+        Intent intent=new Intent(getApplicationContext(),MenuReservaActivity.class);
+        startActivity(intent);
+    }
+    public void irMenuMisAutosActivity(View view){
+        Intent intent=new Intent(getApplicationContext(),MenuMisAutosActivity.class);
+        startActivity(intent);
+    }
 
 
 }

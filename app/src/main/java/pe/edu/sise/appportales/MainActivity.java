@@ -24,12 +24,14 @@ public class MainActivity extends AppCompatActivity {
                 getApplicationContext(),
                 LoginActivity.class);
         startActivity(intent);
+        finish();
     }
     public void irRegistrarse(View view){
         Intent intent=new Intent(
                 getApplicationContext(),
                 RegistreseActivity.class);
         startActivity(intent);
+        finish();
     }
 
 }

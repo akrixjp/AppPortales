@@ -1,11 +1,10 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="pe.edu.sise.appportales.ConsultasFragment">
-
-    <!-- TODO: Update blank fragment layout -->
+    tools:context="pe.edu.sise.appportales.PrincipalActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,14 +18,14 @@
             android:text="@string/lblbutton14"
             android:drawableTop="@drawable/ic_reloj2_64c64"
             android:background="@drawable/redondeo_azul"
-            android:onClick="irTiempoTranscurridoFragment"
+            android:onClick="irTiempoTranscurridoActivity"
             tools:ignore="OnClick" />
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/lblbutton15"
             android:drawableTop="@drawable/ic_check_64x64"
-            android:onClick="irHistoricodeTicket"
+            android:onClick="irHistoricodeTicketActivity"
             android:background="@drawable/redondeo"
             tools:ignore="OnClick" />
         <Button
@@ -35,9 +34,9 @@
             android:text="@string/lblbutton16"
             android:drawableTop="@drawable/ic_ubicanos"
             android:background="@drawable/redondeo_rojo"
-            android:onClick="irUbicarmiauto"
+            android:onClick="irUbicarmiautoActivity"
             tools:ignore="OnClick" />
 
     </LinearLayout>
 
-</FrameLayout>
+</android.support.constraint.ConstraintLayout>
