@@ -75,4 +75,20 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_ubicarmiauto">Map</string>
 
+    <string name="promt_sp_nivel">Seleccione Piso</string>
+    <string-array name="array_nivel">
+        <item>Sotano</item>
+        <item>Semisotano</item>
+        <item>Primer Piso</item>
+        <item>Segundo Piso</item>
+    </string-array>
+
+    <string name="promt_sp_zona">Seleccione Zona</string>
+    <string-array name="array_zona">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+
 </resources>

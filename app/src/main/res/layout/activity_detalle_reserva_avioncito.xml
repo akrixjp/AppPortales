@@ -12,20 +12,23 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
         <Spinner
+            android:id="@+id/sp_nivel"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:entries="@array/array_nivel"
+            android:prompt="@string/promt_sp_nivel"
+            android:spinnerMode="dialog">
 
         </Spinner>
         <Spinner
+            android:id="@+id/sp_zona"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:entries="@array/array_zona"
+            android:prompt="@string/promt_sp_nivel"
+            android:spinnerMode="dialog">
 
         </Spinner>
-        <ListView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-        </ListView>
         <GridView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -36,11 +39,6 @@
             >
 
         </GridView>
-        <GridLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-        </GridLayout>
     </LinearLayout>
 
 </LinearLayout>

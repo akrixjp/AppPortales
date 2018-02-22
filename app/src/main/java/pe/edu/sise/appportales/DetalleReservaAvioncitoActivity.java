@@ -23,12 +23,29 @@ public class DetalleReservaAvioncitoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_detalle_reserva_avioncito);
 
         ArrayList <String> arrayList=new ArrayList<>();
-        arrayList.add("Paola");
-        arrayList.add("Ricardo");
-        arrayList.add("Jose");
-        arrayList.add("Pepe");
-        arrayList.add("Juan");
-        arrayList.add("Mia");
+        arrayList.add("1");
+        arrayList.add("2");
+        arrayList.add("3");
+        arrayList.add("4");
+        arrayList.add("5");
+        arrayList.add("6");
+        arrayList.add("7");
+        arrayList.add("8");
+        arrayList.add("9");
+        arrayList.add("10");
+        arrayList.add("11");
+        arrayList.add("12");
+        arrayList.add("13");
+        arrayList.add("14");
+        arrayList.add("15");
+        arrayList.add("16");
+        arrayList.add("17");
+        arrayList.add("18");
+        arrayList.add("19");
+        arrayList.add("20");
+        arrayList.add("21");
+
+
 
         gridView=(GridView) findViewById(R.id.am_gv_gridview);
         adapter=new GridAvioncitosAdapter(this,arrayList);
