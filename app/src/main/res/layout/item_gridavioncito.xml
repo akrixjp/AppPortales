@@ -12,4 +12,5 @@
         android:id="@+id/ig_tv_titulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
 </LinearLayout>
